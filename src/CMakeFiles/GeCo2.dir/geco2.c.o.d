@@ -65,6 +65,7 @@ CMakeFiles/GeCo2.dir/geco2.c.o: \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+<<<<<<< HEAD
  /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/mem.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -72,11 +73,23 @@ CMakeFiles/GeCo2.dir/geco2.c.o: \
  /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/defs.h \
  /usr/include/inttypes.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+=======
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+>>>>>>> cpuUsage
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+<<<<<<< HEAD
+=======
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/mem.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/defs.h \
+ /usr/include/inttypes.h \
+>>>>>>> cpuUsage
  /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/msg.h \
  /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/buffer.h \
  /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/levels.h \
