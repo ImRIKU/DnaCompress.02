@@ -604,7 +604,7 @@ int32_t main(int argc, char *argv[]){
 
     /////////////////////////////
     //-------cpu usage---------//
-    if(n==0){
+    if(n==(P->nTar)/2){
       get_cpu_usage(&curr_usage);
       get_memory_usage(&mem_total, &mem_free);
     }
@@ -613,7 +613,7 @@ int32_t main(int argc, char *argv[]){
     totalSize   += I[n].size;
     totalBytes  += I[n].bytes;
     headerBytes += I[n].header;
-    }
+  }
 
   if(P->nTar > 1)
     for(n = 0 ; n < P->nTar ; ++n){

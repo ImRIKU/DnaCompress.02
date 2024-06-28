@@ -5,6 +5,7 @@
 #include <float.h>
 #include <ctype.h>
 #include <time.h>
+#include <unistd.h>
 #include "mem.h"
 #include "msg.h"
 #include "defs.h"
@@ -15,6 +16,77 @@
 #include "bitio.h"
 #include "arith.h"
 #include "arith_aux.h"
+
+
+//////////////////////////////////////////////////////////////////////////////
+//----------------------------- CPU USAGE MONITOR --------------------------//
+
+typedef struct {
+    unsigned long user;
+    unsigned long nice;
+    unsigned long system;
+    unsigned long idle;
+    unsigned long iowait;
+    unsigned long irq;
+    unsigned long softirq;
+} CPUUsage;
+
+void get_cpu_usage(CPUUsage* usage) {
+    FILE* file = fopen("/proc/stat", "r");
+    if (!file) {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+
+    fscanf(file, "cpu  %lu %lu %lu %lu %lu %lu %lu",
+           &usage->user,
+           &usage->nice,
+           &usage->system,
+           &usage->idle,
+           &usage->iowait,
+           &usage->irq,
+           &usage->softirq);
+
+    fclose(file);
+}
+
+unsigned long get_total_time(CPUUsage* usage) {
+    return usage->user + usage->nice + usage->system + usage->idle + 
+           usage->iowait + usage->irq + usage->softirq;
+}
+
+float calculate_cpu_usage(CPUUsage* prev, CPUUsage* curr) {
+    unsigned long prev_total = get_total_time(prev);
+    unsigned long curr_total = get_total_time(curr);
+
+    unsigned long total_diff = curr_total - prev_total;
+    unsigned long idle_diff = curr->idle - prev->idle;
+
+    return (1.0 - ((float)idle_diff / total_diff)) * 100;
+}
+
+void get_memory_usage(unsigned long* total, unsigned long* free) {
+    FILE* file = fopen("/proc/meminfo", "r");
+    if (!file) {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+
+    char buffer[256];
+    while (fgets(buffer, sizeof(buffer), file)) {
+        if (sscanf(buffer, "MemTotal: %lu kB", total) == 1 ||
+            sscanf(buffer, "MemFree: %lu kB", free) == 1) {
+            // Do nothing, just parsing
+        }
+    }
+
+    fclose(file);
+}
+
+
+
+
+
 
 //////////////////////////////////////////////////////////////////////////////
 // - - - - - - - - - - - - - - D E C O M P R E S S O R - - - - - - - - - - - -
@@ -351,6 +423,19 @@ int32_t main(int argc, char *argv[]){
   uint8_t     help, verbose, force, nTar = 1;
   clock_t     stop = 0, start = clock();
 
+  //////////////////////////////////////////////////////////////////////////
+  //------------------------ CPU USAGE PART ------------------------------//
+
+  CPUUsage prev_usage, curr_usage;
+  unsigned long mem_total, mem_free;
+
+  // Get initial CPU usage
+  get_cpu_usage(&prev_usage);
+  sleep(1);
+
+  //------------------------ CPU USAGE PART ------------------------------//
+  //////////////////////////////////////////////////////////////////////////
+
   if((help = ArgsState(DEFAULT_HELP, p, argc, "-h", "--help")) == 1
   || argc < 2){
     PrintMenuDecompression();
@@ -439,7 +524,16 @@ int32_t main(int argc, char *argv[]){
       }
     else
       Decompress(P, refModels, n);
+
+    /////////////////////////////
+    //-------cpu usage---------//
+    if(n==nTar/2){
+      get_cpu_usage(&curr_usage);
+      get_memory_usage(&mem_total, &mem_free);
     }
+    /////////////////////////////
+
+  }
 
   Free(checksum);
   Free(refModels);
@@ -451,6 +545,19 @@ int32_t main(int argc, char *argv[]){
 
   stop = clock();
   fprintf(stderr, "Spent %g sec.\n", ((double)(stop-start))/CLOCKS_PER_SEC);
+
+
+  /////////////////////////////////////
+  //--------print usage--------------//
+  // Calculate CPU usage percentage
+    printf("\n\n");
+    float cpu_usage = calculate_cpu_usage(&prev_usage, &curr_usage);
+    printf("CPU Usage: %.2f%%\n", cpu_usage);
+
+    // Get memory usage
+    unsigned long mem_used = mem_total - mem_free;
+    printf("Memory Usage: %lu kB used out of %lu kB\n", mem_used, mem_total);
+  /////////////////////////////////////
 
   return EXIT_SUCCESS;
   }

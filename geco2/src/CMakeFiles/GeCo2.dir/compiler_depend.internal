@@ -3,9 +3,8 @@
 
 CMakeFiles/GeCo2.dir/arith.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.h
  /usr/include/alloca.h
  /usr/include/endian.h
  /usr/include/features-time64.h
@@ -65,11 +64,10 @@ CMakeFiles/GeCo2.dir/arith.c.o
 
 CMakeFiles/GeCo2.dir/arith_aux.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith_aux.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith_aux.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith_aux.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith_aux.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
  /usr/include/alloca.h
  /usr/include/assert.h
  /usr/include/endian.h
@@ -142,8 +140,7 @@ CMakeFiles/GeCo2.dir/arith_aux.c.o
 
 CMakeFiles/GeCo2.dir/bitio.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.h
  /usr/include/features-time64.h
  /usr/include/features.h
  /usr/include/stdc-predef.h
@@ -174,10 +171,9 @@ CMakeFiles/GeCo2.dir/bitio.c.o
 
 CMakeFiles/GeCo2.dir/buffer.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.h
  /usr/include/features-time64.h
  /usr/include/features.h
  /usr/include/inttypes.h
@@ -225,14 +221,13 @@ CMakeFiles/GeCo2.dir/buffer.c.o
 
 CMakeFiles/GeCo2.dir/common.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/msg.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/msg.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.h
  /usr/include/alloca.h
  /usr/include/assert.h
  /usr/include/endian.h
@@ -317,13 +312,12 @@ CMakeFiles/GeCo2.dir/common.c.o
 
 CMakeFiles/GeCo2.dir/context.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.h
  /usr/include/alloca.h
  /usr/include/endian.h
  /usr/include/features-time64.h
@@ -416,18 +410,17 @@ CMakeFiles/GeCo2.dir/context.c.o
 
 CMakeFiles/GeCo2.dir/geco2.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/geco2.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith_aux.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/geco2.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/levels.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/msg.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith_aux.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/levels.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/msg.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.h
  /usr/include/alloca.h
  /usr/include/ctype.h
  /usr/include/endian.h
@@ -517,9 +510,8 @@ CMakeFiles/GeCo2.dir/geco2.c.o
 
 CMakeFiles/GeCo2.dir/levels.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/levels.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/levels.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/levels.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/levels.h
  /usr/include/alloca.h
  /usr/include/endian.h
  /usr/include/features-time64.h
@@ -595,9 +587,8 @@ CMakeFiles/GeCo2.dir/levels.c.o
 
 CMakeFiles/GeCo2.dir/mem.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.h
  /usr/include/alloca.h
  /usr/include/endian.h
  /usr/include/features-time64.h
@@ -677,9 +668,8 @@ CMakeFiles/GeCo2.dir/mem.c.o
 
 CMakeFiles/GeCo2.dir/msg.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/msg.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/msg.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/msg.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/msg.h
  /usr/include/alloca.h
  /usr/include/endian.h
  /usr/include/features-time64.h
@@ -751,13 +741,12 @@ CMakeFiles/GeCo2.dir/msg.c.o
 
 CMakeFiles/GeCo2.dir/pmodels.c.o
  /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/defs.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.h
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.c
- /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/defs.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.h
+ /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.h
  /usr/include/alloca.h
  /usr/include/endian.h
  /usr/include/features-time64.h
