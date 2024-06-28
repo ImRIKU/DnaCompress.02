@@ -1,4 +1,4 @@
-/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles/GeCo2.dir
-/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles/GeDe2.dir
-/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles/edit_cache.dir
-/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles/rebuild_cache.dir
+/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles/GeCo2.dir
+/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles/GeDe2.dir
+/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles/edit_cache.dir
+/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles/rebuild_cache.dir

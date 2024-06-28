@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src"
+CMAKE_SOURCE_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src"
+CMAKE_BINARY_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GeCo2.dir/depend.make
@@ -72,156 +72,156 @@ include CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/geco2.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/geco2.c.o: geco2.c
 CMakeFiles/GeCo2.dir/geco2.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GeCo2.dir/geco2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/geco2.c.o -MF CMakeFiles/GeCo2.dir/geco2.c.o.d -o CMakeFiles/GeCo2.dir/geco2.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/geco2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GeCo2.dir/geco2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/geco2.c.o -MF CMakeFiles/GeCo2.dir/geco2.c.o.d -o CMakeFiles/GeCo2.dir/geco2.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/geco2.c"
 
 CMakeFiles/GeCo2.dir/geco2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/geco2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/geco2.c" > CMakeFiles/GeCo2.dir/geco2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/geco2.c" > CMakeFiles/GeCo2.dir/geco2.c.i
 
 CMakeFiles/GeCo2.dir/geco2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/geco2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/geco2.c" -o CMakeFiles/GeCo2.dir/geco2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/geco2.c" -o CMakeFiles/GeCo2.dir/geco2.c.s
 
 CMakeFiles/GeCo2.dir/mem.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/mem.c.o: mem.c
 CMakeFiles/GeCo2.dir/mem.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GeCo2.dir/mem.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/mem.c.o -MF CMakeFiles/GeCo2.dir/mem.c.o.d -o CMakeFiles/GeCo2.dir/mem.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GeCo2.dir/mem.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/mem.c.o -MF CMakeFiles/GeCo2.dir/mem.c.o.d -o CMakeFiles/GeCo2.dir/mem.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.c"
 
 CMakeFiles/GeCo2.dir/mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/mem.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.c" > CMakeFiles/GeCo2.dir/mem.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.c" > CMakeFiles/GeCo2.dir/mem.c.i
 
 CMakeFiles/GeCo2.dir/mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/mem.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/mem.c" -o CMakeFiles/GeCo2.dir/mem.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/mem.c" -o CMakeFiles/GeCo2.dir/mem.c.s
 
 CMakeFiles/GeCo2.dir/msg.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/msg.c.o: msg.c
 CMakeFiles/GeCo2.dir/msg.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/GeCo2.dir/msg.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/msg.c.o -MF CMakeFiles/GeCo2.dir/msg.c.o.d -o CMakeFiles/GeCo2.dir/msg.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/msg.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/GeCo2.dir/msg.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/msg.c.o -MF CMakeFiles/GeCo2.dir/msg.c.o.d -o CMakeFiles/GeCo2.dir/msg.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/msg.c"
 
 CMakeFiles/GeCo2.dir/msg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/msg.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/msg.c" > CMakeFiles/GeCo2.dir/msg.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/msg.c" > CMakeFiles/GeCo2.dir/msg.c.i
 
 CMakeFiles/GeCo2.dir/msg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/msg.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/msg.c" -o CMakeFiles/GeCo2.dir/msg.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/msg.c" -o CMakeFiles/GeCo2.dir/msg.c.s
 
 CMakeFiles/GeCo2.dir/common.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/common.c.o: common.c
 CMakeFiles/GeCo2.dir/common.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/GeCo2.dir/common.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/common.c.o -MF CMakeFiles/GeCo2.dir/common.c.o.d -o CMakeFiles/GeCo2.dir/common.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/GeCo2.dir/common.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/common.c.o -MF CMakeFiles/GeCo2.dir/common.c.o.d -o CMakeFiles/GeCo2.dir/common.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.c"
 
 CMakeFiles/GeCo2.dir/common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/common.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.c" > CMakeFiles/GeCo2.dir/common.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.c" > CMakeFiles/GeCo2.dir/common.c.i
 
 CMakeFiles/GeCo2.dir/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/common.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/common.c" -o CMakeFiles/GeCo2.dir/common.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/common.c" -o CMakeFiles/GeCo2.dir/common.c.s
 
 CMakeFiles/GeCo2.dir/buffer.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/buffer.c.o: buffer.c
 CMakeFiles/GeCo2.dir/buffer.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/GeCo2.dir/buffer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/buffer.c.o -MF CMakeFiles/GeCo2.dir/buffer.c.o.d -o CMakeFiles/GeCo2.dir/buffer.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/GeCo2.dir/buffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/buffer.c.o -MF CMakeFiles/GeCo2.dir/buffer.c.o.d -o CMakeFiles/GeCo2.dir/buffer.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.c"
 
 CMakeFiles/GeCo2.dir/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/buffer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.c" > CMakeFiles/GeCo2.dir/buffer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.c" > CMakeFiles/GeCo2.dir/buffer.c.i
 
 CMakeFiles/GeCo2.dir/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/buffer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/buffer.c" -o CMakeFiles/GeCo2.dir/buffer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/buffer.c" -o CMakeFiles/GeCo2.dir/buffer.c.s
 
 CMakeFiles/GeCo2.dir/levels.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/levels.c.o: levels.c
 CMakeFiles/GeCo2.dir/levels.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/GeCo2.dir/levels.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/levels.c.o -MF CMakeFiles/GeCo2.dir/levels.c.o.d -o CMakeFiles/GeCo2.dir/levels.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/levels.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/GeCo2.dir/levels.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/levels.c.o -MF CMakeFiles/GeCo2.dir/levels.c.o.d -o CMakeFiles/GeCo2.dir/levels.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/levels.c"
 
 CMakeFiles/GeCo2.dir/levels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/levels.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/levels.c" > CMakeFiles/GeCo2.dir/levels.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/levels.c" > CMakeFiles/GeCo2.dir/levels.c.i
 
 CMakeFiles/GeCo2.dir/levels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/levels.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/levels.c" -o CMakeFiles/GeCo2.dir/levels.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/levels.c" -o CMakeFiles/GeCo2.dir/levels.c.s
 
 CMakeFiles/GeCo2.dir/pmodels.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/pmodels.c.o: pmodels.c
 CMakeFiles/GeCo2.dir/pmodels.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/GeCo2.dir/pmodels.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/pmodels.c.o -MF CMakeFiles/GeCo2.dir/pmodels.c.o.d -o CMakeFiles/GeCo2.dir/pmodels.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/GeCo2.dir/pmodels.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/pmodels.c.o -MF CMakeFiles/GeCo2.dir/pmodels.c.o.d -o CMakeFiles/GeCo2.dir/pmodels.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.c"
 
 CMakeFiles/GeCo2.dir/pmodels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/pmodels.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.c" > CMakeFiles/GeCo2.dir/pmodels.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.c" > CMakeFiles/GeCo2.dir/pmodels.c.i
 
 CMakeFiles/GeCo2.dir/pmodels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/pmodels.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/pmodels.c" -o CMakeFiles/GeCo2.dir/pmodels.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/pmodels.c" -o CMakeFiles/GeCo2.dir/pmodels.c.s
 
 CMakeFiles/GeCo2.dir/context.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/context.c.o: context.c
 CMakeFiles/GeCo2.dir/context.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/GeCo2.dir/context.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/context.c.o -MF CMakeFiles/GeCo2.dir/context.c.o.d -o CMakeFiles/GeCo2.dir/context.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/GeCo2.dir/context.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/context.c.o -MF CMakeFiles/GeCo2.dir/context.c.o.d -o CMakeFiles/GeCo2.dir/context.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.c"
 
 CMakeFiles/GeCo2.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/context.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.c" > CMakeFiles/GeCo2.dir/context.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.c" > CMakeFiles/GeCo2.dir/context.c.i
 
 CMakeFiles/GeCo2.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/context.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/context.c" -o CMakeFiles/GeCo2.dir/context.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/context.c" -o CMakeFiles/GeCo2.dir/context.c.s
 
 CMakeFiles/GeCo2.dir/bitio.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/bitio.c.o: bitio.c
 CMakeFiles/GeCo2.dir/bitio.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/GeCo2.dir/bitio.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/bitio.c.o -MF CMakeFiles/GeCo2.dir/bitio.c.o.d -o CMakeFiles/GeCo2.dir/bitio.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/GeCo2.dir/bitio.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/bitio.c.o -MF CMakeFiles/GeCo2.dir/bitio.c.o.d -o CMakeFiles/GeCo2.dir/bitio.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.c"
 
 CMakeFiles/GeCo2.dir/bitio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/bitio.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.c" > CMakeFiles/GeCo2.dir/bitio.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.c" > CMakeFiles/GeCo2.dir/bitio.c.i
 
 CMakeFiles/GeCo2.dir/bitio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/bitio.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/bitio.c" -o CMakeFiles/GeCo2.dir/bitio.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/bitio.c" -o CMakeFiles/GeCo2.dir/bitio.c.s
 
 CMakeFiles/GeCo2.dir/arith.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/arith.c.o: arith.c
 CMakeFiles/GeCo2.dir/arith.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/GeCo2.dir/arith.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/arith.c.o -MF CMakeFiles/GeCo2.dir/arith.c.o.d -o CMakeFiles/GeCo2.dir/arith.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/GeCo2.dir/arith.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/arith.c.o -MF CMakeFiles/GeCo2.dir/arith.c.o.d -o CMakeFiles/GeCo2.dir/arith.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith.c"
 
 CMakeFiles/GeCo2.dir/arith.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/arith.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith.c" > CMakeFiles/GeCo2.dir/arith.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith.c" > CMakeFiles/GeCo2.dir/arith.c.i
 
 CMakeFiles/GeCo2.dir/arith.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/arith.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith.c" -o CMakeFiles/GeCo2.dir/arith.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith.c" -o CMakeFiles/GeCo2.dir/arith.c.s
 
 CMakeFiles/GeCo2.dir/arith_aux.c.o: CMakeFiles/GeCo2.dir/flags.make
 CMakeFiles/GeCo2.dir/arith_aux.c.o: arith_aux.c
 CMakeFiles/GeCo2.dir/arith_aux.c.o: CMakeFiles/GeCo2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/GeCo2.dir/arith_aux.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/arith_aux.c.o -MF CMakeFiles/GeCo2.dir/arith_aux.c.o.d -o CMakeFiles/GeCo2.dir/arith_aux.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith_aux.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/GeCo2.dir/arith_aux.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GeCo2.dir/arith_aux.c.o -MF CMakeFiles/GeCo2.dir/arith_aux.c.o.d -o CMakeFiles/GeCo2.dir/arith_aux.c.o -c "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith_aux.c"
 
 CMakeFiles/GeCo2.dir/arith_aux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GeCo2.dir/arith_aux.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith_aux.c" > CMakeFiles/GeCo2.dir/arith_aux.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith_aux.c" > CMakeFiles/GeCo2.dir/arith_aux.c.i
 
 CMakeFiles/GeCo2.dir/arith_aux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GeCo2.dir/arith_aux.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/arith_aux.c" -o CMakeFiles/GeCo2.dir/arith_aux.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/arith_aux.c" -o CMakeFiles/GeCo2.dir/arith_aux.c.s
 
 # Object files for target GeCo2
 GeCo2_OBJECTS = \
@@ -253,7 +253,7 @@ GeCo2: CMakeFiles/GeCo2.dir/arith.c.o
 GeCo2: CMakeFiles/GeCo2.dir/arith_aux.c.o
 GeCo2: CMakeFiles/GeCo2.dir/build.make
 GeCo2: CMakeFiles/GeCo2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable GeCo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable GeCo2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GeCo2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +265,6 @@ CMakeFiles/GeCo2.dir/clean:
 .PHONY : CMakeFiles/GeCo2.dir/clean
 
 CMakeFiles/GeCo2.dir/depend:
-	cd "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles/GeCo2.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src" "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles/GeCo2.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/GeCo2.dir/depend
 

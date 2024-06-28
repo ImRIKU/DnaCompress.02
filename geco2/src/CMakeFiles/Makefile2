@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src"
+CMAKE_SOURCE_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src"
+CMAKE_BINARY_DIR = "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/GeDe2.dir/clean
 CMakeFiles/GeCo2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeCo2.dir/build.make CMakeFiles/GeCo2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeCo2.dir/build.make CMakeFiles/GeCo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target GeCo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target GeCo2"
 .PHONY : CMakeFiles/GeCo2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GeCo2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" 12
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GeCo2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" 0
 .PHONY : CMakeFiles/GeCo2.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/GeCo2.dir/clean:
 CMakeFiles/GeDe2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeDe2.dir/build.make CMakeFiles/GeDe2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GeDe2.dir/build.make CMakeFiles/GeDe2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target GeDe2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target GeDe2"
 .PHONY : CMakeFiles/GeDe2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GeDe2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" 12
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GeDe2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/CMakeFiles" 0
 .PHONY : CMakeFiles/GeDe2.dir/rule
 
 # Convenience name for target.

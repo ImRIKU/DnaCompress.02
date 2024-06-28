@@ -1,4 +1,4 @@
-# Install script for directory: /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src
+# Install script for directory: /home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/src/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kali/Desktop/Coding/DNA Compression/Part2/geco2/geco2/src/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

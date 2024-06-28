@@ -1,5 +1,5 @@
 CMakeFiles/GeCo2.dir/bitio.c.o: \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/bitio.c \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/bitio.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,4 +25,4 @@ CMakeFiles/GeCo2.dir/bitio.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/bitio.h
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/bitio.h

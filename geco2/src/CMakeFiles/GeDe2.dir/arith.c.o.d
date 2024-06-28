@@ -1,5 +1,5 @@
 CMakeFiles/GeDe2.dir/arith.c.o: \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/arith.c \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/arith.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,5 +51,5 @@ CMakeFiles/GeDe2.dir/arith.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/arith.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/bitio.h
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/arith.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/bitio.h

@@ -1,7 +1,7 @@
 CMakeFiles/GeCo2.dir/mem.c.o: \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/mem.c \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/mem.c \
  /usr/include/stdc-predef.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/mem.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/mem.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -31,7 +31,7 @@ CMakeFiles/GeCo2.dir/mem.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/defs.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/defs.h \
  /usr/include/inttypes.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \

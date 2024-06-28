@@ -1,5 +1,5 @@
 CMakeFiles/GeDe2.dir/gede2.c.o: \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/gede2.c \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/gede2.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -65,12 +65,12 @@ CMakeFiles/GeDe2.dir/gede2.c.o: \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/mem.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/mem.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/msg.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/defs.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/msg.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/defs.h \
  /usr/include/inttypes.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -78,10 +78,10 @@ CMakeFiles/GeDe2.dir/gede2.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/buffer.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/common.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/context.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/pmodels.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/bitio.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/arith.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/arith_aux.h
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/buffer.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/common.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/context.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/pmodels.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/bitio.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/arith.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/arith_aux.h

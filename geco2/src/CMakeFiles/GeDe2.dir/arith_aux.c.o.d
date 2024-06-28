@@ -1,5 +1,5 @@
 CMakeFiles/GeDe2.dir/arith_aux.c.o: \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/arith_aux.c \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/arith_aux.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,10 +51,10 @@ CMakeFiles/GeDe2.dir/arith_aux.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/assert.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/arith.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/bitio.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/arith_aux.h \
- /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/src/defs.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/arith.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/bitio.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/arith_aux.h \
+ /home/kali/Desktop/Coding/DNA\ Compression/Part2/geco2/geco2/src/defs.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
