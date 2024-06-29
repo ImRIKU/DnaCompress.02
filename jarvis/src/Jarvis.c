@@ -31,6 +31,80 @@
 #include "arith.h"
 #include "arith_aux.h"
 
+
+////////////////////////////////////////////////
+///////////// CPU and MEM USAGE ////////////////
+
+
+typedef struct {
+    unsigned long user;
+    unsigned long nice;
+    unsigned long system;
+    unsigned long idle;
+    unsigned long iowait;
+    unsigned long irq;
+    unsigned long softirq;
+} CPUUsage;
+
+void get_cpu_usage(CPUUsage* usage) {
+    FILE* file = fopen("/proc/stat", "r");
+    if (!file) {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+
+    fscanf(file, "cpu  %lu %lu %lu %lu %lu %lu %lu",
+           &usage->user,
+           &usage->nice,
+           &usage->system,
+           &usage->idle,
+           &usage->iowait,
+           &usage->irq,
+           &usage->softirq);
+
+    fclose(file);
+}
+
+unsigned long get_total_time(CPUUsage* usage) {
+    return usage->user + usage->nice + usage->system + usage->idle + 
+           usage->iowait + usage->irq + usage->softirq;
+}
+
+float calculate_cpu_usage(CPUUsage* prev, CPUUsage* curr) {
+    unsigned long prev_total = get_total_time(prev);
+    unsigned long curr_total = get_total_time(curr);
+
+    unsigned long total_diff = curr_total - prev_total;
+    unsigned long idle_diff = curr->idle - prev->idle;
+
+    return (1.0 - ((float)idle_diff / total_diff)) * 100;
+}
+
+void get_memory_usage(unsigned long* total, unsigned long* free) {
+    FILE* file = fopen("/proc/meminfo", "r");
+    if (!file) {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+
+    char buffer[256];
+    while (fgets(buffer, sizeof(buffer), file)) {
+        if (sscanf(buffer, "MemTotal: %lu kB", total) == 1 ||
+            sscanf(buffer, "MemFree: %lu kB", free) == 1) {
+            // Do nothing, just parsing
+        }
+    }
+
+    fclose(file);
+}
+
+
+CPUUsage prev_usage, curr_usage;
+unsigned long mem_total, mem_free;
+
+////////////////////////////////////////////////
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // ENCODE HEADER
 //
@@ -272,6 +346,14 @@ void Compress(PARAM *P, char *fn){
     if(++i == mSize)    // REALLOC BUFFER ON OVERFLOW 4 STORE THE COMPLETE SEQ
       buf = (uint8_t *) Realloc(buf, (mSize+=mSize) * sizeof(uint8_t));
 
+    ////////////////////////////////////////////////
+    ///////////// CPU and MEM USAGE ////////////////
+
+    get_cpu_usage(&curr_usage);
+    get_memory_usage(&mem_total, &mem_free);
+
+    ////////////////////////////////////////////////
+
     Progress(P->size, i); 
     }
 
@@ -487,6 +569,14 @@ void Decompress(char *fn){
     if(++i == mSize) // REALLOC BUFFER ON OVERFLOW 4 STORE THE COMPLETE SEQ
       buf = (uint8_t *) Realloc(buf, (mSize+=mSize) * sizeof(uint8_t));
 
+    ////////////////////////////////////////////////
+    ///////////// CPU and MEM USAGE ////////////////
+
+    get_cpu_usage(&curr_usage);
+    get_memory_usage(&mem_total, &mem_free);
+
+    ////////////////////////////////////////////////
+
     Progress(P->size, i);
     }
 
@@ -511,6 +601,14 @@ int main(int argc, char **argv){
   int32_t    n, k, xargc = 0;
   PARAM      *P;
   clock_t    stop = 0, start = clock();
+
+
+  ////////////////////////////////////////////////
+  ///////////// CPU and MEM USAGE ////////////////
+
+  get_cpu_usage(&prev_usage);
+
+  ////////////////////////////////////////////////
   
   P = (PARAM *) Calloc(1, sizeof(PARAM));
 
@@ -618,6 +716,18 @@ int main(int argc, char **argv){
     CLOCKS_PER_SEC); 
 
   fprintf(stderr, "Done!                        \n");  // SPACES ARE VALID!
+
+  ////////////////////////////////////////////////
+  ///////////// CPU and MEM USAGE ////////////////
+
+  float cpu_usage = calculate_cpu_usage(&prev_usage, &curr_usage);
+  printf("CPU Usage: %.2f%%\n", cpu_usage);
+
+  unsigned long mem_used = mem_total - mem_free;
+  printf("Memory Usage: %lu kB used out of %lu kB\n", mem_used, mem_total);
+
+  ////////////////////////////////////////////////
+
   return 0;
   }
 
