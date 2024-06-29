@@ -4,6 +4,8 @@
 #include "defs.h"
 #include "common.h"
 
+uint32_t garbage;
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Pow function from http://martin.ankerl.com/2007/10/04/
 // optimized-pow-approximation-for-java-and-c-c/
