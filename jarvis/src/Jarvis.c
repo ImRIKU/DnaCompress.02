@@ -341,18 +341,23 @@ void Compress(PARAM *P, char *fn){
 
       ShiftRBuf(cache, SCACHE, sym);  // STORE THE LAST SCACHE BASES & SHIFT 1
       UpdateCBuffer(SB);
+
+        ///////////////////////////////////////////////
+        ///////////// CPU and MEM USAGE ////////////////
+
+        if(n==m/2){
+          get_cpu_usage(&curr_usage);
+          get_memory_usage(&mem_total, &mem_free);
+        }
+
+        ////////////////////////////////////////////////
+        
       }
 
     if(++i == mSize)    // REALLOC BUFFER ON OVERFLOW 4 STORE THE COMPLETE SEQ
       buf = (uint8_t *) Realloc(buf, (mSize+=mSize) * sizeof(uint8_t));
 
-    ////////////////////////////////////////////////
-    ///////////// CPU and MEM USAGE ////////////////
-
-    get_cpu_usage(&curr_usage);
-    get_memory_usage(&mem_total, &mem_free);
-
-    ////////////////////////////////////////////////
+    
 
     Progress(P->size, i); 
     }
@@ -572,8 +577,11 @@ void Decompress(char *fn){
     ////////////////////////////////////////////////
     ///////////// CPU and MEM USAGE ////////////////
 
-    get_cpu_usage(&curr_usage);
-    get_memory_usage(&mem_total, &mem_free);
+    if(i==(P->size)/2){
+      get_cpu_usage(&curr_usage);
+      get_memory_usage(&mem_total, &mem_free);
+    }
+
 
     ////////////////////////////////////////////////
 
