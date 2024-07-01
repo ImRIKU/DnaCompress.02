@@ -351,7 +351,7 @@ void Compress(PARAM *P, char *fn){
         }
 
         ////////////////////////////////////////////////
-        
+
       }
 
     if(++i == mSize)    // REALLOC BUFFER ON OVERFLOW 4 STORE THE COMPLETE SEQ
