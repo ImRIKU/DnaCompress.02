@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -rdynamic CMakeFiles/GeDe.dir/gede.c.o CMakeFiles/GeDe.dir/mem.c.o CMakeFiles/GeDe.dir/msg.c.o CMakeFiles/GeDe.dir/common.c.o CMakeFiles/GeDe.dir/buffer.c.o CMakeFiles/GeDe.dir/levels.c.o CMakeFiles/GeDe.dir/context.c.o CMakeFiles/GeDe.dir/bitio.c.o CMakeFiles/GeDe.dir/arith.c.o CMakeFiles/GeDe.dir/arith_aux.c.o -o GeDe  -lm
